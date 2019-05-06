@@ -1,0 +1,33 @@
+.aa-links {
+    display: flex;
+	font-family: $sans-serif;
+	font-size: 13px;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.aa {
+    border-bottom: 1px solid #ebebeb;
+    
+}
+
+.aa-links li {
+    margin-left: 10px;
+    
+	// border-right: 1px solid $light-gray;
+}
+
+.aa-links li a:hover {
+    background-color: lightgray;
+    text-decoration: none;
+}
+
+.aa-links li:last-of-type {
+    text-transform: uppercase;
+}
+
+#all:hover{
+    text-decoration: underline;
+    background-color: white;
+}
